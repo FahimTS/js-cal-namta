@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" type="text/css" rel="stylesheet"/>
+    <title>Calculator Design</title>
+</head>
+<body>
+
+      <ul>
+         <li><a href="../index.html" class="text-center">Back</a></li>
+      </ul>
+      <div class="container">
+         
+         <div class="calculator">
+            <div class="calculat-text">
+               <h2>Calculator</h2>
+               <span>FS 100~</span>
+            </div>
+            <form>
+               <div class="display">
+                  <input type="text" name="display" id="result">
+               </div>
+               <div>
+                  <input type="button" value="AC" onclick="deleteNow()" class="operator">
+                  <input type="button" value="DE" onclick="delNow()" class="operator">
+                  <input type="button" value="." onclick="addNow('.')" class="operator">
+                  <input type="button" value="/" onclick="addNow('/')" class="operator">
+               </div>
+               <div>
+                  <input type="button" value="7" onclick="addNow('7')">
+                  <input type="button" value="8" onclick="addNow('8')">
+                  <input type="button" value="9" onclick="addNow('9')">
+                  <input type="button" value="*" onclick="addNow('*')" class="operator">
+               </div>
+               <div>
+                  <input type="button" value="4" onclick="addNow('4')">
+                  <input type="button" value="5" onclick="addNow('5')">
+                  <input type="button" value="6" onclick="addNow('6')">
+                  <input type="button" value="-" onclick="addNow('-')" class="operator">
+               </div>
+               <div>
+                  <input type="button" value="1" onclick="addNow('1')">
+                  <input type="button" value="2" onclick="addNow('2')">
+                  <input type="button" value="3" onclick="addNow('3')">
+                  <input type="button" value="+" onclick="addNow('+')" class="operator">
+               </div>
+               <div>
+                  <input type="button" value="00" onclick="addNow('00')">
+                  <input type="button" value="0" onclick="addNow('0')">
+                  <input type="button" value="=" onclick="averTotal()" class="equal operator">
+
+               </div>
+            </form>
+         </div>
+      </div>
+
+    <script src="js/cal.js"></script>
+</body>
+</html>

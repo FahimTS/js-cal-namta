@@ -1,0 +1,94 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    text-align: center;
+}
+
+body{
+    background-color: rgb(227, 249, 255);
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator {
+    background-color: rgb(58, 68, 82);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 1px #1c1a1af7;
+}
+
+.calculator form input {
+    border: 0px;
+    outline: 0px;
+    width: 65px;
+    height: 55px;
+    border-radius: 10px;
+    box-shadow: rgba(255, 255, 255, 0.1) -8px 8px 15px, rgba(0, 0, 0, 0.2) 5px 5px 15px;
+    background: transparent;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin: 5px;
+}
+
+form .display {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 0px;
+}
+
+form .display input {
+    text-align: right;
+    flex: 1 1 0%;
+    font-size: 35px;
+    box-shadow: none;
+}
+
+form input.equal {
+    width: 132px;
+}
+
+form input.operator {
+    color: rgb(51, 255, 216);
+}
+
+.calculat-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(128, 108, 108, 0.21);
+    padding: 15px 20px;
+    border-radius: 50px;
+}
+
+.calculat-text h2 {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+.calculat-text span {
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-size: 14px;
+}
+ul li a{
+    background-color: #52af96;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+li{
+    text-align: center;
+    margin: 20px 0px;
+}
